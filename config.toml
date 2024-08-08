@@ -1,0 +1,22 @@
+[general]
+
+#### Address & Root dir
+host = "::"
+port = 8010
+root = "/var/public"
+
+#### Logging
+log-level = "info"
+
+#### Auto Compression
+compression = true
+compression-level = "default"
+
+#### Directory listing
+directory-listing = false
+
+#### Health-check endpoint (GET or HEAD `/health`)
+health = true
+
+#### Maintenance Mode
+maintenance-mode = false
